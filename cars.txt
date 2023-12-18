@@ -1,0 +1,22 @@
+Cars:
+
+id -  INT - UNSIGNED - PRIMARY_KEY (NOTNULL - UNIQUE ) - AUTOINCREMENT 
+plate - VARCHAR (7) - UNIQUE - NOTNULL
+inventory_number - VARCHAR (7) - NOTNULL
+price - INT - NOTNULL
+model - VARCHAR (255) - NOTNULL
+brand - VARCHAR (255) - NOTNULL
+first_enrollment - DATE - NOTNULL 
+km - INT - NOTNULL
+fuel - VARCHAR(255) - NOTNULL
+is_automatic - TINYINT (1) - NOTNULL - DEFAULT(O)
+is_manual - TINYINT (1) - NOTNULL - DEFAULT(O)
+power_cv - SMALLINT - NOTNULL
+number_of_owners - SMALLINT - NOTNULL
+color - VARCHAR (255)- NOTNULL
+country_of_origin - VARCHAR (255) - NOTNULL
+is_crashed - TINYINT (1) - NOTNULL - DEFAULT(O)
+is_repaired - TINYINT (1)- NOTNULL - DEFAULT(O)
+seats - SMALLINT - NOTNULL
+last_maintenance - DATE - NOTNULL
+contact_number - CHARVAR(255) - NOTNULL
